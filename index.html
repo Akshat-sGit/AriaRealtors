@@ -14,17 +14,20 @@
 </head>
 
 <body>
-      <script>
-        window.addEventListener('load', function() {
-  var loadingScreen = document.getElementById('loading-screen');
-  loadingScreen.style.display = 'none';
+     <script>
+     window.addEventListener('load', function() {
+  setTimeout(function() {
+    document.querySelector('.loading').style.display = 'none';
+  }, 2500);
 });
     </script>
-    <div id="loading-screen">
-  <div class="dot"></div>
-  <div class="dot"></div>
-  <div class="dot"></div>
-</div>
+  <div class="loading">
+    <div class="loading-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
     <header>
         <div data-bss-parallax-bg="true" style="height: 100vh;background: url(&quot;assets/img/20230401133404_IMG_2541.jpg&quot;) center / cover;background-image: url(&quot;assets/img/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg&quot;);background-position: center;background-size: cover;">
             <nav class="navbar navbar-light navbar-expand-md bg-opacity-25 py-3">
