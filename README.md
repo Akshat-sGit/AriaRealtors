@@ -1,2 +1,3 @@
 # AriaRealtors
-www.ariarealtors.netlify.app
+
+ariarealtors.netlify.app
